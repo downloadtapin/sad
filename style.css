@@ -1,0 +1,112 @@
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #371B58;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.menuutama {
+    background-color: #7858A6;
+    height: 50px;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.menuitem {
+    text-decoration: none;
+    color: black;
+}
+.dropbtn {
+    background-color: #371B58;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .font {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+.judul {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    padding-left: 20px;
+}
+
+.body {
+    border-bottom: 2px solid #4C3575;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+.profil{
+    border-right: 2px solid #4C3575;
+    padding: 30px;
+}
+
+.identitas {
+    height: 500px;
+    display: flex; flex-direction: row; padding: 5px;
+}
+.foto {
+    padding: 40px;
+}
+.service{
+    display: flex;
+    padding: 30px;
+}
+.img {
+    max-width: 100%;
+  
+    border-radius: 500px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(92, 0, 153);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    
+    object-position: left;
+}
+.footer {
+    height: 30px;
+    margin-top: 20px;
+    background-color: #5B4B8A;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+}
